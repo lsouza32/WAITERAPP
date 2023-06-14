@@ -48,9 +48,29 @@ $ cd WAITERAPP
 # Em cada diretório do projeto (API, frontEnd, mobile) instale as dependências:
 $ yarn install
 
-# Em cada diretório do projeto (API, frontEnd, mobile) inicie as aplicações:
+# Nos diretório do projeto inicie as aplicações:
+
+# API
+$ cd API
+$ yarn install
+$ yarn start
+
+# Front-end
+$ cd frontEnd
+$ yarn install
 $ yarn dev
+
+# Mobile
+$ cd mobile
+$ yarn install
+$ expo start
 ```
+
+### Atenção:, caso nao aparecer as imagens no app mobile, fique atento aos endereços da imagens presentes nos arquivos:
+/mobile/src/components/Cart/index.tsx (linha 66)
+/mobile/src/components/Menu/index.tsx (linha 45)
+/mobile/src/ProductModal/index.tsx (linha 40)
+/mobile/src/utils/api.ts (linha 4)
 
 ## Ferramentas
 
