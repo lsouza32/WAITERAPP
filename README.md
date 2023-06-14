@@ -66,7 +66,7 @@ $ yarn install
 $ expo start
 ```
 
-### Atenção:, caso nao aparecer as imagens no app mobile, fique atento aos endereços da imagens presentes nos arquivos:
+### Atenção: caso nao aparecer as imagens no app mobile, fique atento aos endereços da imagens presentes nos arquivos:
 /mobile/src/components/Cart/index.tsx (linha 66)
 /mobile/src/components/Menu/index.tsx (linha 45)
 /mobile/src/ProductModal/index.tsx (linha 40)
