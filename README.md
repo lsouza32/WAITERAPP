@@ -16,13 +16,6 @@
 	<img align="center" alt="Lucas-MongoDB" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg">	
 </p>
 
-<p align="center">
-  <a href="#sobre">Sobre</a> •
-  <a href="#plataformas">Plataformas</a> •
-  <a href="#como-usar">Como usar</a> •	
-  <a href="#ferramentas">Ferramentas</a> •
-  <a href="#layout">Layout</a>
-</p>
 
 ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
@@ -77,7 +70,3 @@ Back-end:
 - [Mongo DB](https://www.mongodb.com/)
 - [Express.js](https://expressjs.com/pt-br/)
 
-
-## Layout
-
-(em producao de um gif de layout)
