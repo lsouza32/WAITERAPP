@@ -17,8 +17,6 @@
 </p>
 
 
-![screenshot](/images/waiter.gif)
-
 ## Sobre
 
 O Waiter App é uma solução abrangente e inovadora projetada para otimizar o fluxo de pedidos em restaurantes. Com essa aplicação de ponta, garçons e equipe da cozinha podem se manter conectados como nunca antes.
@@ -69,4 +67,8 @@ Back-end:
 - [Node JS](https://nodejs.org/en)
 - [Mongo DB](https://www.mongodb.com/)
 - [Express.js](https://expressjs.com/pt-br/)
+
+## Layout
+
+![screenshot](/images/waiter.gif)
 
