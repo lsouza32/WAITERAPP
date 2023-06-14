@@ -1,127 +1,83 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="images/WaiterApp.png" alt="Markdownify" width="200"></a>
+  <a><img src="images/WaiterApp.png" alt="WaiterApp"></a>
   <br>
-  Markdownify
+  WaiterApp - O App do Garçom
   <br>
 </h1>
 
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">Um aplicativo web e mobile com uma API de integração.</h4>
 
 <p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
-  </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
-  </a>
-  <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a>
+	<img align="center" alt="Lucas-ts" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+	<img align="center" alt="Lucas-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg">  
+	<img align="center" alt="Lucas-Node" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
+	<img align="center" alt="Lucas-MongoDB" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg">	
 </p>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
+  <a href="#sobre">Sobre</a> •
+  <a href="#plataformas">Plataformas</a> •
+  <a href="#como-usar">Como usar</a> •	
+  <a href="#ferramentas">Ferramentas</a> •
+  <a href="#layout">Layout</a>
 </p>
 
 ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
-## Key Features
+## Sobre
 
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
+O Waiter App é uma solução abrangente e inovadora projetada para otimizar o fluxo de pedidos em restaurantes. Com essa aplicação de ponta, garçons e equipe da cozinha podem se manter conectados como nunca antes.
 
-## How To Use
+O projeto consiste em duas partes complementares: um aplicativo mobile e uma plataforma web. O aplicativo mobile foi especialmente desenvolvido para os garçons, proporcionando-lhes um menu digital intuitivo, no qual eles podem facilmente criar pedidos personalizados para os clientes, especificando a mesa em que estão sentados. A plataforma web, por sua vez, funciona como um painel de controle abrangente, exibindo o estado atual de cada pedido e fornecendo um ambiente centralizado para a equipe da cozinha gerenciar e monitorar as solicitações.
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+Tudo isso é possível graças à integração perfeita entre as duas interfaces, que é facilitada por meio de uma API eficiente. Essa API atua como um hub central, permitindo a transferência automática de dados entre o aplicativo mobile e a plataforma web. Dessa forma, a comunicação entre os garçons e a cozinha é agilizada, garantindo um serviço mais eficiente e uma experiência aprimorada para os clientes.
+
+Além disso, a plataforma web oferece uma visão completa do estado de cada pedido, permitindo que a equipe da cozinha acompanhe o progresso de cada solicitação em tempo real. Os pedidos são categorizados em três estados distintos: "Fila de Espera", indicando que o pedido foi recebido e está aguardando preparo; "Em Produção", indicando que a equipe da cozinha está atualmente preparando o pedido; e "Pronto", indicando que o pedido está finalizado e pronto para ser entregue ao cliente.
+
+Com o Waiter App, o restaurante se beneficia de uma solução completa e eficaz para o gerenciamento de pedidos, garantindo uma comunicação fluída e uma coordenação perfeita entre garçons e equipe da cozinha. Essa abordagem inovadora traz melhorias significativas em termos de eficiência operacional, redução de erros e satisfação geral dos clientes.
+
+
+## Plataformas
+  - WEB, Android e IOS.
+
+## Como usar
+
+### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, Node.js,Expo e/ou Yarn, MongoDB Além disto é bom ter um editor para trabalhar com o código como VSCode.
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+# Clone esse repositório:
+$ git clone https://github.com/lsouza32/WAITERAPP
 
-# Go into the repository
-$ cd electron-markdownify
+# Entre no diretório:
+$ cd WAITERAPP
 
-# Install dependencies
-$ npm install
+# Em cada diretório do projeto (API, frontEnd, mobile) instale as dependências:
+$ yarn install
 
-# Run the app
-$ npm start
+# Em cada diretório do projeto (API, frontEnd, mobile) inicie as aplicações:
+$ yarn dev
 ```
 
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+## Ferramentas
+
+Para o desenvolvimento do projeto foram usadas as seguintes tecnologias:
+
+Front-end:
+- [React](https://react.dev/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Styled-Components](https://styled-components.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+Back-end:
+- [Node JS](https://nodejs.org/en)
+- [Mongo DB](https://www.mongodb.com/)
+- [Express.js](https://expressjs.com/pt-br/)
 
 
-## Download
+## Layout
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
-
-## Emailware
-
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
-
-## Credits
-
-This software uses the following open source packages:
-
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
-
-## Related
-
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
-
-## Support
-
-<a href="https://www.buymeacoffee.com/5Zn8Xh3l9" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-<p>Or</p> 
-
-<a href="https://www.patreon.com/amitmerchant">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-## You may also like...
-
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
-
-## License
-
-MIT
-
----
-
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
-
+(em producao de um gif de layout)
