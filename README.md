@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a><img src="images/WaiterApp.png" alt="WaiterApp"></a>
+  <a><img src="waiterApp-Resources/images/WaiterApp.png" alt="WaiterApp"></a>
   <br>
   WaiterApp - O App do Garçom
   <br>
@@ -38,39 +38,56 @@ Com o Waiter App, o restaurante se beneficia de uma solução completa e eficaz 
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, Node.js,Expo e/ou Yarn, MongoDB Além disto é bom ter um editor para trabalhar com o código como VSCode.
 
-```bash
+
 # Clone esse repositório:
+```bash
 $ git clone https://github.com/lsouza32/WAITERAPP
-
-# Entre no diretório:
-$ cd WAITERAPP
-
-# Em cada diretório do projeto (API, frontEnd, mobile) instale as dependências:
-$ yarn install
-
-# Nos diretório do projeto inicie as aplicações:
-
-# API
-$ cd API
-$ yarn install
-$ yarn start
-
-# Front-end
-$ cd frontEnd
-$ yarn install
-$ yarn dev
-
-# Mobile
-$ cd mobile
-$ yarn install
-$ expo start
 ```
 
-### Atenção: caso nao aparecer as imagens no app mobile, fique atento aos endereços da imagens presentes nos arquivos:
-/mobile/src/components/Cart/index.tsx (linha 66)
-/mobile/src/components/Menu/index.tsx (linha 45)
-/mobile/src/ProductModal/index.tsx (linha 40)
-/mobile/src/utils/api.ts (linha 4)
+# Entre no diretório:
+```bash
+$ cd WAITERAPP
+```
+
+# Nos diretório do projeto instale as dependências e inicie as aplicações:
+
+# API
+```bash
+$ cd API
+$ npm install
+$ npm run dev
+```
+
+# Front-end
+```bash
+$ cd frontEnd
+$ npm install
+$ npm run dev
+```
+
+# Mobile
+```bash
+$ cd mobile
+$ npm install
+$ npm start
+```
+
+### Atenção: Fique atento ao endereço de IP da sua máquina, usamos eles nos arquivos:
+mobile\src\utils\ipconfig.ts
+frontEnd\src\utils\ipconfig.ts
+
+## Conteúdo da pasta waiterApp-Resources:
+
+Esta pasta reúne recursos essenciais relacionados à aplicação WaiterApp:
+
+- **/images**: Aqui estão disponíveis várias imagens que representam o layout e a interface da aplicação.
+
+- **/Collection-Insomnia**: Esta subpasta contém uma coleção do Insomnia, que inclui todas as solicitações HTTP necessárias para testar e interagir com a aplicação.
+
+- **/Backup-DB**: Nesta seção, você encontrará um arquivo de backup do banco de dados que inclui alguns produtos já cadastrados, permitindo uma configuração inicial rápida e pronta para uso.
+
+Estes recursos são valiosos para o desenvolvimento, teste e uso da aplicação WaiterApp. Certifique-se de explorar e utilizar esses recursos conforme necessário.
+
 
 ## Ferramentas
 
@@ -90,5 +107,5 @@ Back-end:
 
 ## Layout
 
-![screenshot](/images/waiter.gif)
+![screenshot](/waiterApp-Resources/images/waiter.gif)
 

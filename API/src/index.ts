@@ -11,7 +11,7 @@ const server = http.createServer(app);
 export const io = new Server(server);
 
 
-mongoose.connect('mongodb://localhost:27017')
+mongoose.connect('mongodb://127.0.0.1:27017')
 	.then(()=> {
 		const port= 3001;
 
@@ -30,10 +30,11 @@ mongoose.connect('mongodb://localhost:27017')
 		app.use(router);
 
 		server.listen(port,()=> {
-			console.log(`Servidor rodando em http://localhost:${port}`);
+			console.log(`Servidor rodando em http://127.0.0.1:${port}`);
 		});
 	})
-	.catch(()=> console.log('Error no mongoDB'));
+	.catch((error)=> {
+		console.error('Error no mongoDB ', error);});
 
 
 
