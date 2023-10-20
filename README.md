@@ -74,6 +74,7 @@ $ npm start
 
 ### Atenção: Fique atento ao endereço de IP da sua máquina, usamos eles nos arquivos:
 mobile\src\utils\ipconfig.ts
+
 frontEnd\src\utils\ipconfig.ts
 
 ## Conteúdo da pasta waiterApp-Resources:
