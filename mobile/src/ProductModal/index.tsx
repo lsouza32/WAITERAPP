@@ -4,6 +4,7 @@ import { Close } from '../components/Icons/Close';
 import { Text } from '../components/Text';
 import { Product } from '../types/Product';
 import { formatCurrency } from '../utils/formatCurrency';
+import { myIP } from '../utils/ipconfig';
 import { Image, CloseButton,
 	Header, ModalBody,
 	IngredientsContainer, Ingredient,
@@ -37,7 +38,7 @@ export function ProductModal({visible, onClose, product, onAddToCart}: ProductMo
 		>
 
 			<Image
-				source={{uri:`http://192.168.0.106:3001/uploads/${product.imagePath}`,}}
+				source={{uri:`${myIP}:3001/uploads/${product.imagePath}`,}}
 			>
 				<CloseButton onPress={onClose}>
 					<Close/>

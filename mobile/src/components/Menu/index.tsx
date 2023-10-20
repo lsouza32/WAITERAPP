@@ -5,6 +5,7 @@ import { formatCurrency } from '../../utils/formatCurrency';
 import { PlusCircle } from '../Icons/PlusCircle';
 import { Text } from '../Text';
 import { Product } from '../../types/Product';
+import { myIP } from '../../utils/ipconfig';
 import {ProductContainer, ProductImage, ProductDetails, Separetor, AddToCartButton} from './styles';
 
 
@@ -42,7 +43,7 @@ export function Menu({onAddToCart, products}: MenuProps){
 					<ProductContainer onPress={()=> handleOpenModal(product)}>
 						<ProductImage
 							source={{
-								uri:`http://192.168.0.106:3001/uploads/${product.imagePath}`,
+								uri:`${myIP}:3001/uploads/${product.imagePath}`,
 							}}
 						/>
 						<ProductDetails>

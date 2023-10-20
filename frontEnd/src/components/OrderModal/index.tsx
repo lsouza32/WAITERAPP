@@ -5,7 +5,7 @@ import closeIcon from '../../assets/images/close-icon.svg';
 import { OrdersContainer } from '../OrdersBoard/styles';
 import { formatCurrency } from '../../utils/formatCurrency';
 import { useEffect } from 'react';
-
+import { myIP } from '../../utils/ipconfig';
 
 interface OrderModalProps{
 	visible: boolean;
@@ -83,7 +83,7 @@ export function OrderModal({visible, order, onClose, onCancelOrder, isLoading, o
 						{order.products.map(({_id, product, quantity})=>(
 							<div className="item" key={_id}>
 								<img
-									src={`http://localhost:3001/uploads/${product.imagePath}`}
+									src={`${myIP}:3001/uploads/${product.imagePath}`}
 									alt= {product.name}
 									width='56'
 									height='28.51'

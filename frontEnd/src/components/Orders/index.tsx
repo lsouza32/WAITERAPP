@@ -5,6 +5,7 @@ import { Order } from '../../types/Order';
 import { OrdersBoard } from '../OrdersBoard';
 import { Container } from './styles';
 import { api } from '../../utils/api';
+import { myIP } from '../../utils/ipconfig';
 
 
 export function Orders(){
@@ -12,7 +13,7 @@ export function Orders(){
 	const [orders,  setOrders] =  useState<Order[]>([]);
 
 	useEffect(()=> {// faz o request dos novos pedidos, sem pegar os antigos (do 'historico')
-		const socket= socketIo('http://localhost:3001', {
+		const socket= socketIo(`${myIP}:3001`, {
 			transports: ['websocket'],
 		});
 

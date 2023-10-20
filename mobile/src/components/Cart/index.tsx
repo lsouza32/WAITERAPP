@@ -10,6 +10,7 @@ import { Product } from '../../types/Product';
 import { OrderConfirmedModal } from '../OrderConfirmedModal';
 import { useState } from 'react';
 import { api } from '../../utils/api';
+import { myIP } from '../../utils/ipconfig';
 
 interface CartProps{
 	cartItems: CartItem[];
@@ -63,7 +64,7 @@ export function Cart({ cartItems, onAdd, onDecrement, onConfirmOrder, selectedTa
 							<ProductContainer>
 								<Image
 									source={{
-										uri: `http://192.168.0.106:3001/uploads/${cartItem.product.imagePath}`,
+										uri: `${myIP}:3001/uploads/${cartItem.product.imagePath}`,
 									}}
 								/>
 
