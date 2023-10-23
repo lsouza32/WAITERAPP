@@ -1,0 +1,300 @@
+[{
+  "_id": {
+    "$oid": "6532d00b8158e165dda269e6"
+  },
+  "name": "Pizza quatro queijos",
+  "description": "Deliciosa pizza quatro queijos com borda simples.",
+  "imagePath": "1697828875530-quatro-queijos.png",
+  "price": 40,
+  "ingredients": [
+    {
+      "name": "Mussarela",
+      "icon": "🧀",
+      "_id": {
+        "$oid": "6532d00b8158e165dda269e7"
+      }
+    },
+    {
+      "name": "Parmessão",
+      "icon": "🧀",
+      "_id": {
+        "$oid": "6532d00b8158e165dda269e8"
+      }
+    },
+    {
+      "name": "Gouda",
+      "icon": "🧀",
+      "_id": {
+        "$oid": "6532d00b8158e165dda269e9"
+      }
+    },
+    {
+      "name": "Brie",
+      "icon": "🧀",
+      "_id": {
+        "$oid": "6532d00b8158e165dda269ea"
+      }
+    }
+  ],
+  "category": {
+    "$oid": "6532c718ac96ba11aefbd7dc"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6532d7488158e165dda26a1e"
+  },
+  "name": "Pizza Frango com Catupiry",
+  "description": "Pizza clássica de frango com Catupiry e borda simples.",
+  "imagePath": "1697830728045-frango-catupiry.png",
+  "price": 34,
+  "ingredients": [
+    {
+      "name": "Mussarela",
+      "icon": "🧀",
+      "_id": {
+        "$oid": "6532d7488158e165dda26a1f"
+      }
+    },
+    {
+      "name": "Frango",
+      "icon": "🍗",
+      "_id": {
+        "$oid": "6532d7488158e165dda26a20"
+      }
+    },
+    {
+      "name": "Catupiry",
+      "icon": "🍶",
+      "_id": {
+        "$oid": "6532d7488158e165dda26a21"
+      }
+    }
+  ],
+  "category": {
+    "$oid": "6532c718ac96ba11aefbd7dc"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6532d78a8158e165dda26a23"
+  },
+  "name": "Pizza Margherita",
+  "description": "Clássica e saborosa com queijo 🧀, tomate 🍅 e manjericão 🌿.",
+  "imagePath": "1697830794599-marguerita.png",
+  "price": 34,
+  "ingredients": [
+    {
+      "name": "Mussarela",
+      "icon": "🧀",
+      "_id": {
+        "$oid": "6532d78a8158e165dda26a24"
+      }
+    },
+    {
+      "name": "Tomate",
+      "icon": "🍅",
+      "_id": {
+        "$oid": "6532d78a8158e165dda26a25"
+      }
+    },
+    {
+      "name": "Manjericão",
+      "icon": "🌿",
+      "_id": {
+        "$oid": "6532d78a8158e165dda26a26"
+      }
+    }
+  ],
+  "category": {
+    "$oid": "6532c718ac96ba11aefbd7dc"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6532d82b8158e165dda26a34"
+  },
+  "name": "Burguer Molho Especial",
+  "description": "Hambúrguer suculento com molho especial, alface, tomate e cebola.",
+  "imagePath": "1697830955599-burger-molho-especial.png",
+  "price": 18,
+  "ingredients": [
+    {
+      "name": "Carne de Hambúrguer",
+      "icon": "🍔",
+      "_id": {
+        "$oid": "6532d82b8158e165dda26a35"
+      }
+    },
+    {
+      "name": "Alface",
+      "icon": "🥬",
+      "_id": {
+        "$oid": "6532d82b8158e165dda26a36"
+      }
+    },
+    {
+      "name": "Tomate",
+      "icon": "🍅",
+      "_id": {
+        "$oid": "6532d82b8158e165dda26a37"
+      }
+    },
+    {
+      "name": "Cebola",
+      "icon": "🧅",
+      "_id": {
+        "$oid": "6532d82b8158e165dda26a38"
+      }
+    },
+    {
+      "name": "Molho Especial",
+      "icon": "🍔🌟",
+      "_id": {
+        "$oid": "6532d82b8158e165dda26a39"
+      }
+    }
+  ],
+  "category": {
+    "$oid": "6532c776ac96ba11aefbd7e1"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6532d84c8158e165dda26a3b"
+  },
+  "name": "Burguer Chicken",
+  "description": "Hambúrguer de frango com alface, tomate e queijo derretido.",
+  "imagePath": "1697830988392-chicken.png",
+  "price": 16,
+  "ingredients": [
+    {
+      "name": "Carne de Hambúrguer de Frango",
+      "icon": "🍗🍔",
+      "_id": {
+        "$oid": "6532d84c8158e165dda26a3c"
+      }
+    },
+    {
+      "name": "Alface",
+      "icon": "🥬",
+      "_id": {
+        "$oid": "6532d84c8158e165dda26a3d"
+      }
+    },
+    {
+      "name": "Tomate",
+      "icon": "🍅",
+      "_id": {
+        "$oid": "6532d84c8158e165dda26a3e"
+      }
+    },
+    {
+      "name": "Queijo",
+      "icon": "🧀",
+      "_id": {
+        "$oid": "6532d84c8158e165dda26a3f"
+      }
+    }
+  ],
+  "category": {
+    "$oid": "6532c776ac96ba11aefbd7e1"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6532d86a8158e165dda26a41"
+  },
+  "name": "Burguer Egg",
+  "description": "Hambúrguer suculento com ovo frito, bacon, alface e tomate.",
+  "imagePath": "1697831018362-egg.png",
+  "price": 20,
+  "ingredients": [
+    {
+      "name": "Carne de Hambúrguer",
+      "icon": "🍔",
+      "_id": {
+        "$oid": "6532d86a8158e165dda26a42"
+      }
+    },
+    {
+      "name": "Ovo Frito",
+      "icon": "🍳",
+      "_id": {
+        "$oid": "6532d86a8158e165dda26a43"
+      }
+    },
+    {
+      "name": "Bacon",
+      "icon": "🥓",
+      "_id": {
+        "$oid": "6532d86a8158e165dda26a44"
+      }
+    },
+    {
+      "name": "Alface",
+      "icon": "🥬",
+      "_id": {
+        "$oid": "6532d86a8158e165dda26a45"
+      }
+    },
+    {
+      "name": "Tomate",
+      "icon": "🍅",
+      "_id": {
+        "$oid": "6532d86a8158e165dda26a46"
+      }
+    }
+  ],
+  "category": {
+    "$oid": "6532c776ac96ba11aefbd7e1"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6532d9188158e165dda26aa1"
+  },
+  "name": "Cerveja",
+  "description": "Uma cerveja refrescante para os momentos de descontração.",
+  "imagePath": "1697831192192-cerveja.png",
+  "price": 7,
+  "ingredients": [],
+  "category": {
+    "$oid": "6532c757ac96ba11aefbd7df"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6532d9338158e165dda26aa3"
+  },
+  "name": "Coca-Cola",
+  "description": "A clássica Coca-Cola em uma lata de 350ml, perfeita para acompanhar sua refeição.",
+  "imagePath": "1697831219027-coca-cola.png",
+  "price": 4,
+  "ingredients": [],
+  "category": {
+    "$oid": "6532c757ac96ba11aefbd7df"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6532d95a8158e165dda26aa5"
+  },
+  "name": "Suco de Laranja",
+  "description": "Suco natural sem adição de açucar.",
+  "imagePath": "1697831258876-suco-de-laranja.png",
+  "price": 5,
+  "ingredients": [],
+  "category": {
+    "$oid": "6532c757ac96ba11aefbd7df"
+  },
+  "__v": 0
+}]

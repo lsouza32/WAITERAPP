@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "6532c718ac96ba11aefbd7dc"
+  },
+  "name": "Pizzas",
+  "icon": "🍕",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6532c757ac96ba11aefbd7df"
+  },
+  "name": "Bebidas",
+  "icon": "🍺",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6532c776ac96ba11aefbd7e1"
+  },
+  "name": "Hamburguers",
+  "icon": "🍔",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6532c79eac96ba11aefbd7e3"
+  },
+  "name": "Promoções",
+  "icon": "🎫",
+  "__v": 0
+}]
