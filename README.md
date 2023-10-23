@@ -36,7 +36,7 @@ Com o Waiter App, o restaurante se beneficia de uma solução completa e eficaz 
 ## Como usar
 
 ### Pré-requisitos
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, Node.js,Expo e/ou Yarn, MongoDB Além disto é bom ter um editor para trabalhar com o código como VSCode.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: Git, Node.js,Expo e/ou Yarn e MongoDB. Além disto é bom ter um editor para trabalhar com o código como VSCode.
 
 
 ### Clone esse repositório:
@@ -48,6 +48,13 @@ $ git clone https://github.com/lsouza32/WAITERAPP
 ```bash
 $ cd WAITERAPP
 ```
+### Abra os seguintes arquivos e altere o endereço IP, colocando o endereço da IP da sua máquina:
+- mobile\src\utils\ipconfig.ts
+
+- frontEnd\src\utils\ipconfig.ts
+
+### Importe o banco de dados:
+- Faça a importação das tabelas presente na pasta /Backup-DB para o mongoDB.
 
 ## Nos diretório do projeto instale as dependências e inicie as aplicações:
 
@@ -71,11 +78,6 @@ $ cd mobile
 $ npm install
 $ npm start
 ```
-
-### **Atenção**: Fique atento ao endereço de IP da sua máquina, usamos eles nos arquivos:
-- mobile\src\utils\ipconfig.ts
-
-- frontEnd\src\utils\ipconfig.ts
 
 ## Conteúdo da pasta waiterApp-Resources:
 
